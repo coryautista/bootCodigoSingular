@@ -1,0 +1,6 @@
+@WhatsAppWebhookApi_HostAddress = http://localhost:5029
+
+GET {{WhatsAppWebhookApi_HostAddress}}/webhook?hub.mode=subscribe&hub.challenge=test123&hub.verify_token=MuniAgsEF24
+Accept: application/json
+
+###
